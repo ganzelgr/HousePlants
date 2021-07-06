@@ -4,7 +4,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>Plant_Monstera</defName>
     <label>monstera deliciosa</label>
-    <description>Idk.</description>
+    <description>swiss cheese plant</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>20</Beauty>
@@ -12,7 +12,7 @@
     </statBases>
     <graphicData>
       <texPath>Things/Plant/Monstera</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
+      <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
     <selectable>true</selectable>
@@ -22,6 +22,8 @@
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
       <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>MonsteraCutting</harvestedThingDef>
+      <harvestYield>1</harvestYield>
       <sowWork>600</sowWork>
       <sowTags>
         <li>Decorative</li>
@@ -29,6 +31,339 @@
       <growMinGlow>0.51</growMinGlow>
       <topWindExposure>0.1</topWindExposure>
       <growDays>2</growDays>
+      <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Pilea</defName>
+    <label>pilea peperomiodes</label>
+    <description>chinese money plant</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>13</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Pilea</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>PileaCutting</harvestedThingDef>
+      <harvestYield>2</harvestYield>
+      <sowWork>520</sowWork>
+      <sowTags>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.51</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>1.5</growDays>
+      <lifespanDaysPerGrowDays>3</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Ficus</defName>
+    <label>ficus lyrata</label>
+    <description>fiddle leaf fig</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>15</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Ficus</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>FicusCutting</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <sowWork>820</sowWork>
+      <sowTags>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.51</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>4</growDays>
+      <lifespanDaysPerGrowDays>3</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Chlorophytum</defName>
+    <label>chlorophytum comosum</label>
+    <description>snake plant</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>7</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Chlorophytum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>ChlorophytumCutting</harvestedThingDef>
+      <harvestYield>2</harvestYield>
+      <sowWork>330</sowWork>
+      <sowTags>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.51</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>1.5</growDays>
+      <lifespanDaysPerGrowDays>3</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Sansevieria</defName>
+    <label>sansevieria laurentii</label>
+    <description>snake plant</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>8</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Sansevieria</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>SansevieriaCutting</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <sowWork>380</sowWork>
+      <sowTags>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.3</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>3</growDays>
+      <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Codiaeum</defName>
+    <label>codiaeum variegatum</label>
+    <description>garden croton</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>5</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Codiaeum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>CodiaeumCutting</harvestedThingDef>
+      <harvestYield>2</harvestYield>
+      <sowWork>530</sowWork>
+      <sowTags>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.51</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>1.5</growDays>
+      <lifespanDaysPerGrowDays>3</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Philodendron</defName>
+    <label>philodendron hederaceum</label>
+    <description>heartleaf philodendron</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>15</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Philodendron</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>PhilodendronCutting</harvestedThingDef>
+      <harvestYield>3</harvestYield>
+      <sowWork>450</sowWork>
+      <sowTags>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.51</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>2</growDays>
+      <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Epipremnum</defName>
+    <label>epipremnum aureum</label>
+    <description>golden pothos</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>14</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Epipremnum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>EpipremnumCutting</harvestedThingDef>
+      <harvestYield>3</harvestYield>
+      <sowWork>430</sowWork>
+      <sowTags>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.51</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>2</growDays>
+      <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Calathea</defName>
+    <label>calathea orbifolia</label>
+    <description>calathea orbifolia</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>22</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Calathea</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>CalatheaCutting</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <sowWork>800</sowWork>
+      <sowTags>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.51</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>2.5</growDays>
+      <lifespanDaysPerGrowDays>3</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Zamioculcas</defName>
+    <label>zamioculcas zamiifolia</label>
+    <description>ZZ plant</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>10</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/Zamioculcas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+    </ingestible>
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>ZamioculcasCutting</harvestedThingDef>
+      <harvestYield>1</harvestYield>
+      <sowWork>360</sowWork>
+      <sowTags>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.3</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>1.5</growDays>
       <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
       <visualSizeRange>0.3~1.05</visualSizeRange>
       <wildOrder>1</wildOrder>
